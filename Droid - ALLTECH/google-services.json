@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "509518662047",
+    "firebase_url": "https://alltech-tracking.firebaseio.com",
+    "project_id": "alltech-tracking",
+    "storage_bucket": "alltech-tracking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509518662047:android:8b134e550e0efe55",
+        "android_client_info": {
+          "package_name": "br.com.alltechseguranca.tracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509518662047-m4papmaeb83g3sl8v51b1c0idkj9bv25.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpuWmTd1cpfukFFMZixSicPEh66WSuv9I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509518662047-m4papmaeb83g3sl8v51b1c0idkj9bv25.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

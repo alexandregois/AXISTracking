@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{5E3E5805-850B-4BA3-92AF-409644C9F288}|Default">
+  <MonoDevelop.Ide.ItemProperties.axistracking.Droid_220-_220Khronos PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.ItemProperties.axistracking.iOS_220-_220Khronos automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.73f1fb7f6a18f97946eb4da108053778de471541" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="iOS - ALLTECH/Info.plist" />
+      <File FileName="iOS - ALLTECH/Entitlements.plist" />
+      <File FileName="iOS - ALLTECH/AppDelegate.cs" />
+      <File FileName="axistracking/ViewModels/ViewModelLogin.cs" />
+      <File FileName="axistracking/Views/ViewLogin.xaml" />
+      <File FileName="axistracking/Views/ViewLogin.xaml.cs" />
+      <File FileName="iOS - Spywave/Info.plist" />
+      <File FileName="iOS - Spywave/Entitlements.plist" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="axistracking" expanded="True">
+            <Node name="axistracking.iOS - Spywave" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.axistracking.Droid PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.axistracking.iOS automaticSigning="False" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.73f1fb7f6a18f97946eb4da108053778de471541" />
+  <MonoDevelop.Ide.ItemProperties.axistracking.Droid_220-_220MXM PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.ItemProperties.axistracking.iOS_220-_220Spywave automaticSigning="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.73f1fb7f6a18f97946eb4da108053778de471541">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="8XGP4ERF4X" TeamId="7Y3T27TKD2" />
+  </MonoDevelop.Ide.ItemProperties.axistracking.iOS_220-_220Spywave>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.axistracking.iOS_220-_220ALLTECH automaticSigning="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E6E32988-264C-41A5-8783-8AA3D6017068">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam DeveloperId="BQG5926SFJ" TeamId="6M67CD69WT" />
+  </MonoDevelop.Ide.ItemProperties.axistracking.iOS_220-_220ALLTECH>
+  <MonoDevelop.Ide.ItemProperties.axistracking.Droid_220-_220ALLTECH PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+</Properties>

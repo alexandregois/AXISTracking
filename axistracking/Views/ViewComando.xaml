@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+	xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="axistracking.Views.ViewComando"
+    NavigationPage.HasNavigationBar="false"
+	xmlns:i18n="clr-namespace:axistracking.CustomClass;assembly=axistracking"
+    xmlns:local="clr-namespace:axistracking.CustomElements;assembly=axistracking"
+	Title="Envio de Comando">
+	
+	<ContentView 
+		x:Name="PanelGeral"
+		Margin="0">
+
+		<AbsoluteLayout
+			x:Name="PageContent"
+			HeightRequest="{Binding HeightRequestDefault}"
+			WidthRequest="{Binding DefaultWidth}"
+			Margin="0"
+			Padding="0"
+            BackgroundColor = "White">
+			
+			<StackLayout
+				HeightRequest="{Binding HeightRequestDefault}"
+				WidthRequest="{Binding DefaultWidth}"
+				Margin="0"
+				Padding="0"
+				Spacing="0"
+			>
+				<Picker
+					x:Name="CommandPicker"
+					Margin="{Binding CommandMarginDefault}"
+					ItemsSource="{Binding CommandPickerSource}"
+					Title="{Binding CommandPickerTitle}"
+					WidthRequest="{Binding CommandWidthDefault}"
+					HeightRequest="{Binding CommandPickerHeight}"
+					ItemDisplayBinding="{Binding Nome}"
+					Unfocused="Picker_Unfocused"
+					IsEnabled="{Binding CommandPickerIsEnabled}"
+				></Picker>
+
+				<StackLayout
+					Margin="0"
+					HeightRequest="1"
+					BackgroundColor="Black"
+					WidthRequest="{Binding DefaultWidth}"
+				></StackLayout>
+
+				<local:CustomTableView
+					x:Name="ParameterBox"
+					Intent="Form"
+					Margin="0"
+					HasUnevenRows="true"
+					BindingContext="{Binding ParameterBoxBindingContext}"
+					BindingContextChanged="Handle_BindingContextChanged"
+					BackgroundColor="{Binding ParameterBoxBackgroundColor}"
+				/>
+				
+				<Button 
+					x:Name="Send"
+					TextColor="White"
+					BackgroundColor="Green"
+					BorderColor="Transparent"
+					BorderWidth="0"
+					BorderRadius="0"
+					Text="{Binding BtnSendText}"
+					IsVisible="{Binding BtnSendIsEnabled}"
+					Command="{Binding BtnSendCommand}"
+				></Button>
+			</StackLayout>
+		</AbsoluteLayout>
+		
+	</ContentView>
+	
+</ContentPage>

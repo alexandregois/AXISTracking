@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "757192689047",
+    "firebase_url": "https://mxm-tracking.firebaseio.com",
+    "project_id": "mxm-tracking",
+    "storage_bucket": "mxm-tracking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757192689047:android:6b4f993765e3e748",
+        "android_client_info": {
+          "package_name": "br.com.maxima.tracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757192689047-urp740el7jtcer9d722bgg58hgo5nhra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsmzsGZFjycqd-6wiQsJQX6C68F6CRtQI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

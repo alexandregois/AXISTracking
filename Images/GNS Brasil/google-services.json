@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "805987752246",
+    "firebase_url": "https://gns-brasil.firebaseio.com",
+    "project_id": "gns-brasil",
+    "storage_bucket": "gns-brasil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805987752246:android:c091a80ddeac4281",
+        "android_client_info": {
+          "package_name": "br.com.gns.tracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805987752246-gml7gkuin6mgqsk3u5ouu77ino4u2s5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5bxYaCRX5CjdIbGx9YqY5BitEVbYAA-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805987752246-gml7gkuin6mgqsk3u5ouu77ino4u2s5p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "285882600569",
+    "firebase_url": "https://ssx-khronos-tracking.firebaseio.com",
+    "project_id": "ssx-khronos-tracking",
+    "storage_bucket": "ssx-khronos-tracking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285882600569:android:2b34b515506280bc",
+        "android_client_info": {
+          "package_name": "br.com.khronosnet.tracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285882600569-rb8hsr002ohmqt8tvfk87rd2nvnefet3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZEr0WALzoGhEpfgI-x87iKKj1oPbemK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285882600569-rb8hsr002ohmqt8tvfk87rd2nvnefet3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "285882600569-lmdomijm9ld2bap1ehnooa0u8skgdfuv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.khronosnet.tracking"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

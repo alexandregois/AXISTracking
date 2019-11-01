@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="false"
+             x:Class="axistracking.Views.ViewHistorico"
+             Title="Historico">
+    <ContentView 
+		x:Name="PanelGeral"
+		Margin="0">
+        
+			
+		
+		<StackLayout 
+			Orientation="Vertical" 
+			VerticalOptions="Start"
+			HeightRequest="{Binding HeightRequestDefault}"
+			WidthRequest="{Binding DefaultWidth}"
+			Margin="0"
+			Padding="0"
+			Spacing="0"
+		>
+			<AbsoluteLayout
+				x:Name="painelMapa"
+				AutomationId="painelMapa"
+				HeightRequest="{Binding HeightPainelMapa}"
+				WidthRequest="{Binding DefaultWidth}"
+			>
+	            <StackLayout 
+					x:Name="painelMapaBox"
+					HeightRequest="{Binding HeightPainelMapa}"
+					WidthRequest="{Binding DefaultWidth}"
+					BackgroundColor="Gray"
+				>
+	            </StackLayout>
+			</AbsoluteLayout>
+            <ListView
+				x:Name="ListHistorico"
+				SeparatorColor="#d2d8e2"
+				SeparatorVisibility="Default"
+				Margin="0"
+				ItemsSource="{Binding ListHistorico_Source}"
+				HasUnevenRows="true"
+				RefreshCommand="{Binding ListHistorico_RefreshCommand}"
+				IsRefreshing="{Binding ListHistorico_IsRefreshing}"
+				HeightRequest="{Binding HeightPainelLista}"
+				WidthRequest="{Binding DefaultWidth}"
+				AutomationId="ListHistorico"
+                IsPullToRefreshEnabled="True"
+                SelectedItem="{Binding SelectedItem}">
+            </ListView>
+
+			<Button
+				x:Name="painelBuscarMais"
+				FontSize="Small" 
+				IsEnabled="{Binding MaisCommandIsEnabled}"
+				HeightRequest="{Binding HeightPainelBuscarMais}"
+				WidthRequest="{Binding DefaultWidth}"
+				Command="{Binding BuscarMaisCommand}"
+				BackgroundColor="White"
+			></Button>
+			
+		</StackLayout>
+		
+        
+    </ContentView>
+</ContentPage>

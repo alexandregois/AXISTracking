@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="axistracking.Views.ViewLogin"
+    NavigationPage.HasNavigationBar="false"
+    BackgroundColor="#2E2F3A">
+    <AbsoluteLayout 
+		x:Name="Panel" 
+		HorizontalOptions="Center" 
+		VerticalOptions="StartAndExpand" 
+		Margin="0">
+
+		<ScrollView
+			x:Name="scrollView"
+			Margin="0">
+		
+	        <Grid
+				x:Name="Grid">
+				
+	            <Grid.RowDefinitions>
+	                <RowDefinition Height="*"/>
+	                <RowDefinition Height="220"/>
+	            </Grid.RowDefinitions>
+				
+				<Grid.ColumnDefinitions>
+	                <ColumnDefinition Width="*"></ColumnDefinition>
+	            </Grid.ColumnDefinitions>
+
+				<StackLayout 
+					x:Name="PanelLogo" 
+					Grid.Row="0" 
+					Grid.Column="0" 
+					Margin="0"
+					Spacing="0"
+					VerticalOptions="FillAndExpand" 
+					HorizontalOptions="Center">
+					
+	                <Image 
+						x:Name="ImgLogo" 
+						Source="{Binding ImageSource}" 
+						HeightRequest="230"
+						WidthRequest="230" 
+						HorizontalOptions="Center"
+						VerticalOptions="CenterAndExpand" />
+					
+	            </StackLayout>
+
+				<StackLayout 
+					x:Name="PanelFormulario" 
+					Grid.Row="1" 
+					Grid.Column="0"
+					Margin="25,0"
+					Spacing="5"
+					Orientation="Vertical">
+
+					<Entry 
+						x:Name="TxtEmail" 
+						HeightRequest="55"
+						Margin="0"
+						Text="{Binding Email}" 
+						Placeholder="Login" 
+						BackgroundColor="White" 
+						HorizontalTextAlignment="Center" 
+						Keyboard="Email"
+                        AutomationId="TxtEmail"/>
+					
+	                <Entry
+						x:Name="TxtSenha" 
+						HeightRequest="55"
+						Margin="0"
+						Placeholder="Senha"
+						Text="{Binding Password}"
+						BackgroundColor="White"
+						HorizontalTextAlignment="Center"
+						IsPassword="True"
+                        AutomationId="TxtSenha"/>
+					
+	                <Button 
+						x:Name="BtnLogin" 
+						BackgroundColor="#24ab74"
+						Text="Entrar" 
+						TextColor="White" 
+						Command="{Binding LoginCommand}"
+                        AutomationId="BtnLogin">
+					</Button>
+	            </StackLayout>
+	        </Grid>
+		</ScrollView>
+    </AbsoluteLayout>
+</ContentPage>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+	xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    NavigationPage.HasNavigationBar="false"
+	x:Class="axistracking.Views.ViewModulos"
+	xmlns:i18n="clr-namespace:axistracking.CustomClass;assembly=axistracking"
+    xmlns:local="clr-namespace:axistracking.CustomElements;assembly=axistracking"
+    Title="Painel">
+
+    <ContentView 
+		x:Name="PanelGeral"
+		Margin="0"
+        BackgroundColor="#1C1C22">
+
+        <StackLayout x:Name="PainelFundo"                     
+                     Margin="7,7,7,7"
+                     BackgroundColor="#1C1C22"
+                     HeightRequest="{Binding PainelFundoHeightRequest}"
+                     WidthRequest="{Binding PainelFundoWidthRequest}">
+        
+            <Grid x:Name="gridModulos"></Grid>
+            
+        </StackLayout>
+
+    </ContentView>
+
+</ContentPage>

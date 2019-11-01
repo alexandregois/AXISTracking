@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1033923859949",
+    "firebase_url": "https://axistracking.firebaseio.com",
+    "project_id": "axistracking",
+    "storage_bucket": "axistracking.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033923859949:android:809b399fba92c525",
+        "android_client_info": {
+          "package_name": "br.com.systemsat.axistracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033923859949-f3vpiqpkd3521e9dk8ksaaob7f3fau4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQvVKhzk40Oj7PqwlgP8PmPGq3SdU5Roc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

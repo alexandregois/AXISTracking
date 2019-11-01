@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "389375239371",
+    "firebase_url": "https://axistracking-f4482.firebaseio.com",
+    "project_id": "axistracking-f4482",
+    "storage_bucket": "axistracking-f4482.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389375239371:android:809b399fba92c525",
+        "android_client_info": {
+          "package_name": "br.com.doisminutos.axistracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389375239371-l644ogtq6nc8bqvhm2u0jai8avv9i7fn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ1UkhZC1ZBfCUkvFYzAOpAt8fwwDASkE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389375239371:android:d21223b1a4401352",
+        "android_client_info": {
+          "package_name": "br.com.doisminutos.tracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389375239371-l644ogtq6nc8bqvhm2u0jai8avv9i7fn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ1UkhZC1ZBfCUkvFYzAOpAt8fwwDASkE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

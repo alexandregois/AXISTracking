@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="VerDetalhes" xml:space="preserve">
+    <value>Ver Detalhes</value>
+  </data>
+  <data name="UnidadesRastreadas" xml:space="preserve">
+    <value>Unidades rastreadas</value>
+  </data>
+  <data name="UnidadeRastreada" xml:space="preserve">
+    <value>Unidade rastreada</value>
+  </data>
+  <data name="UnidadesRastreadasDesatualizadas" xml:space="preserve">
+    <value>Desatualizadas</value>
+  </data>
+  <data name="UnidadesRastreadasParcialmenteAtualizadas" xml:space="preserve">
+    <value>Parcialmente</value>
+  </data>
+  <data name="UnidadesRastreadasAtualizadas" xml:space="preserve">
+    <value>Atualizadas</value>
+  </data>
+  <data name="Alertas" xml:space="preserve">
+    <value>Alerta(s) sem tratamento</value>
+  </data>
+  <data name="Alerta" xml:space="preserve">
+    <value>Alerta em andamento</value>
+  </data>
+  <data name="EmTratamento" xml:space="preserve">
+    <value>Em tratamento</value>
+  </data>
+  <data name="NaoTratados" xml:space="preserve">
+    <value>Não tratado</value>
+  </data>
+  <data name="Comandos" xml:space="preserve">
+    <value>Comandos não processados</value>
+  </data>
+  <data name="ComandoFalha" xml:space="preserve">
+    <value>Falhas</value>
+  </data>
+  <data name="ComandoAguardando" xml:space="preserve">
+    <value>Aguardando transmissão</value>
+  </data>
+  <data name="Chamados" xml:space="preserve">
+    <value>Chamados abertos</value>
+  </data>
+  <data name="Viagens" xml:space="preserve">
+    <value>Viagens em andamento</value>
+  </data>
+  <data name="ViagensNaoIniciadas" xml:space="preserve">
+    <value>Não iniciadas</value>
+  </data>
+  <data name="ViagensNaoIniciadaAtrasadas" xml:space="preserve">
+    <value>Atrasadas não iniciadas</value>
+  </data>
+  <data name="ViagensEncerradas" xml:space="preserve">
+    <value>Encerradas</value>
+  </data>
+  <data name="ViagensEmAndamento" xml:space="preserve">
+    <value>Em andamento</value>
+  </data>
+  <data name="PontosAtendimento" xml:space="preserve">
+    <value>Pontos de atendimento</value>
+  </data>
+  <data name="PontosNaoAtendidos" xml:space="preserve">
+    <value>Não atendidos</value>
+  </data>
+  <data name="PontosAtendidosComOcorrencia" xml:space="preserve">
+    <value>Atendidos com ocorrência</value>
+  </data>
+  <data name="PontosAtendidosSemOcorrencia" xml:space="preserve">
+    <value>Atendidos sem ocorrência</value>
+  </data>
+  <data name="UnidadesEmServico" xml:space="preserve">
+    <value>Unidades em serviço</value>
+  </data>
+  <data name="VeiculosOcupados" xml:space="preserve">
+    <value>Ocupados</value>
+  </data>
+  <data name="VeiculosDisponiveis" xml:space="preserve">
+    <value>Disponíveis</value>
+  </data>
+  <data name="cnh" xml:space="preserve">
+    <value>CNH a vencer e vencidas</value>
+  </data>
+  <data name="MotoristaCnhVencer" xml:space="preserve">
+    <value>Vencendo em até 30 dias</value>
+  </data>
+  <data name="MotoristaCnhVencida" xml:space="preserve">
+    <value>Vencida</value>
+  </data>
+  <data name="cancelar" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="historico" xml:space="preserve">
+    <value>Histórico</value>
+  </data>
+  <data name="detalheposicao" xml:space="preserve">
+    <value>Detalhes posição</value>
+  </data>
+  <data name="Evento" xml:space="preserve">
+    <value>Evento:</value>
+  </data>
+  <data name="Sensores" xml:space="preserve">
+    <value>Sensores</value>
+  </data>
+  <data name="Atuadores" xml:space="preserve">
+    <value>Atuadores</value>
+  </data>
+  <data name="Telemetria" xml:space="preserve">
+    <value>Telemetria</value>
+  </data>
+  <data name="Informacoes" xml:space="preserve">
+    <value>Informações</value>
+  </data>
+  <data name="SemGrupo" xml:space="preserve">
+    <value>sem grupo</value>
+  </data>
+  <data name="Erro" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="LoginNaoEncontrado" xml:space="preserve">
+    <value>Token não encontrado, favor refazer o login.</value>
+  </data>
+  <data name="ErroLogin" xml:space="preserve">
+    <value>Erro ao efetuar o login.</value>
+  </data>
+  <data name="HistoricoUR" xml:space="preserve">
+    <value>Histórico da UR</value>
+  </data>
+  <data name="Map" xml:space="preserve">
+    <value>Rua</value>
+  </data>
+  <data name="Satellite" xml:space="preserve">
+    <value>Satélite</value>
+  </data>
+  <data name="Hybrid" xml:space="preserve">
+    <value>Híbrido</value>
+  </data>
+  <data name="Terrain" xml:space="preserve">
+    <value>Terreno</value>
+  </data>
+  <data name="MapType" xml:space="preserve">
+    <value>Tipo Mapa</value>
+  </data>
+  <data name="TelaCheia" xml:space="preserve">
+    <value>Tela Cheia</value>
+  </data>
+  <data name="TelaNormal" xml:space="preserve">
+    <value>Tela Normal</value>
+  </data>
+  <data name="AbrirMapa" xml:space="preserve">
+    <value>Abrir Mapa</value>
+  </data>
+  <data name="FecharMapa" xml:space="preserve">
+    <value>Fechar Mapa</value>
+  </data>
+  <data name="StreetView" xml:space="preserve">
+    <value>Street View</value>
+  </data>
+  <data name="SemInformacao" xml:space="preserve">
+    <value>Sem Informação</value>
+  </data>
+  <data name="Velocidade" xml:space="preserve">
+    <value>Velocidade:</value>
+  </data>
+  <data name="PositionDetails" xml:space="preserve">
+    <value>Detalhes da posição</value>
+  </data>
+  <data name="SemModelo" xml:space="preserve">
+    <value>Sem Modelo</value>
+  </data>
+  <data name="Exception" xml:space="preserve">
+    <value>Ocorreu um erro inesperado. Tente novamente por favor. Caso o erro persista, entre em contato com o suporte técnico</value>
+  </data>
+  <data name="UltimaPosicao" xml:space="preserve">
+    <value>Última Posição</value>
+  </data>
+  <data name="NaoHaDetalhesPosicao" xml:space="preserve">
+    <value>Não há detalhes de posicao para a unidade selecionada</value>
+  </data>
+  <data name="Ancora" xml:space="preserve">
+    <value>Âncora</value>
+  </data>
+  <data name="AtivarAncora" xml:space="preserve">
+    <value>Criar Âncora</value>
+  </data>
+  <data name="DesativarAncora" xml:space="preserve">
+    <value>Remover Âncora</value>
+  </data>
+  <data name="EnviarComandos" xml:space="preserve">
+    <value>Enviar Comandos</value>
+  </data>
+  <data name="AlertasSemTratamento" xml:space="preserve">
+    <value>Alertas sem tratamento</value>
+  </data>
+  <data name="AncoraCriada" xml:space="preserve">
+    <value>Ancora criada com sucesso</value>
+  </data>
+  <data name="AncoraRemovida" xml:space="preserve">
+    <value>Ancora removida com sucesso</value>
+  </data>
+  <data name="Ativar" xml:space="preserve">
+    <value>Ativar</value>
+  </data>
+  <data name="Desativar" xml:space="preserve">
+    <value>Desativar</value>
+  </data>
+  <data name="SelectCommand" xml:space="preserve">
+    <value>Selecione um comando para enviar</value>
+  </data>
+  <data name="StatusOutput" xml:space="preserve">
+    <value>Status Saída</value>
+  </data>
+  <data name="Comando" xml:space="preserve">
+    <value>Comando não processado</value>
+  </data>
+  <data name="ChooseAction" xml:space="preserve">
+    <value>Escolha a ação</value>
+  </data>
+  <data name="SendCommand" xml:space="preserve">
+    <value>Enviar comando</value>
+  </data>
+  <data name="CriadoPor" xml:space="preserve">
+    <value>Criado por</value>
+  </data>
+  <data name="DataEnvio" xml:space="preserve">
+    <value>Data de Envio</value>
+  </data>
+  <data name="DataFila" xml:space="preserve">
+    <value>Data da Fila</value>
+  </data>
+  <data name="DataProcessamento" xml:space="preserve">
+    <value>Data do Processamento</value>
+  </data>
+  <data name="Fechar" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="ConfirmaSair" xml:space="preserve">
+    <value>Deseja realmente sair?</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="Sair" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="InformacoesAdicionais" xml:space="preserve">
+    <value>Informações Adicionais</value>
+  </data>
+  <data name="FiltroEventos" xml:space="preserve">
+    <value>Filtro de eventos</value>
+  </data>
+  <data name="CommandSendSuccess" xml:space="preserve">
+    <value>Comando adicionado na fila com sucesso!</value>
+  </data>
+  <data name="AddressNotFound" xml:space="preserve">
+    <value>Endereço não localizado!</value>
+  </data>
+  <data name="CommandHistory" xml:space="preserve">
+    <value>Histórico de comando</value>
+  </data>
+  <data name="ComandoSucesso" xml:space="preserve">
+    <value>Processado</value>
+  </data>
+  <data name="SearchMore" xml:space="preserve">
+    <value>Buscar mais</value>
+  </data>
+  <data name="NoCommandsFound" xml:space="preserve">
+    <value>Nenhum Comando encontrado.</value>
+  </data>
+  <data name="CommandSendSuccessWhereToGo" xml:space="preserve">
+    <value>Comando foi colocado na fila de envio. Deseja ir para uma listagem de comandos?</value>
+  </data>
+  <data name="Stay" xml:space="preserve">
+    <value>Ficar</value>
+  </data>
+  <data name="Go" xml:space="preserve">
+    <value>Ir</value>
+  </data>
+  <data name="CancelarComando" xml:space="preserve">
+    <value>Cancelar comando</value>
+  </data>
+  <data name="CancelarComandoConfirma" xml:space="preserve">
+    <value>Deseja cancelar o comando?</value>
+  </data>
+  <data name="CancelarComandoSucesso" xml:space="preserve">
+    <value>Cancelamento de comando enviado com sucesso.</value>
+  </data>
+  <data name="Atualizacao" xml:space="preserve">
+    <value>Atualização: </value>
+  </data>
+  <data name="DetalhesComando" xml:space="preserve">
+    <value>Detalhes do comando</value>
+  </data>
+  <data name="Posicao" xml:space="preserve">
+    <value>Posição: </value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="BateriaBackup" xml:space="preserve">
+    <value>Bateria backup:</value>
+  </data>
+  <data name="DataAtualizacao" xml:space="preserve">
+    <value>Data atualização:</value>
+  </data>
+  <data name="DataEvento" xml:space="preserve">
+    <value>Data evento:</value>
+  </data>
+  <data name="DataGps" xml:space="preserve">
+    <value>Data gps:</value>
+  </data>
+  <data name="Horimetro" xml:space="preserve">
+    <value>Horímetro:</value>
+  </data>
+  <data name="Odometro" xml:space="preserve">
+    <value>Odômetro:</value>
+  </data>
+  <data name="Temperatura" xml:space="preserve">
+    <value>Temperatura</value>
+  </data>
+  <data name="RastreadoresDesatualizados" xml:space="preserve">
+    <value>Rastreadores desatualizado(s)</value>
+  </data>
+  <data name="Rastreadores" xml:space="preserve">
+    <value>Rastreador(es)</value>
+  </data>
+  <data name="Roteirizacao" xml:space="preserve">
+    <value>Roteirização</value>
+  </data>
+  <data name="EscolhaAplicativo" xml:space="preserve">
+    <value>Escolha o aplicativo de roteirização</value>
+  </data>
+  <data name="GoogleMaps" xml:space="preserve">
+    <value>Google Maps</value>
+  </data>
+  <data name="Waze" xml:space="preserve">
+    <value>Waze</value>
+  </data>
+  <data name="Trafego" xml:space="preserve">
+    <value>Tráfego</value>
+  </data>
+  <data name="MapaPadrao" xml:space="preserve">
+    <value>Padrão</value>
+  </data>
+  <data name="LoginSenhaInvalido" xml:space="preserve">
+    <value>Usuário ou senha inválido</value>
+  </data>
+</root>

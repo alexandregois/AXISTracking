@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+	xmlns="http://xamarin.com/schemas/2014/forms" 
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+	x:Class="axistracking.Views.ViewPosicao1"
+    NavigationPage.HasNavigationBar="false"
+	xmlns:i18n="clr-namespace:axistracking.CustomClass;assembly=axistracking"
+    xmlns:local="clr-namespace:axistracking.CustomClass;assembly=axistracking"
+	>
+    <ContentView 
+		x:Name="PanelGeral"
+		Margin="0">
+
+        <AbsoluteLayout
+			x:Name="PageContent"
+			HeightRequest="{Binding DefaultHeightContent}"
+			WidthRequest="{Binding DefaultWidth}"
+			BackgroundColor = "White"
+			Margin="0"
+			Padding="0">
+            <StackLayout
+				Margin="0"
+				Padding="0"
+				Spacing="0"
+				Orientation="Vertical">
+
+                <WebView 
+					x:Name="WVStreet"
+					Source="{Binding WVStreetSource}" 
+					BackgroundColor="Gray" 
+					IsVisible="{Binding ExibeStreetView}"
+                    HeightRequest="{Binding DefaultHeightContent}"
+					WidthRequest="{Binding DefaultWidth}"                    
+				></WebView>
+
+                <StackLayout
+					x:Name="PainelMapa"
+					AutomationId="PainelMapa"
+					Margin="0"
+					Spacing="0"
+					WidthRequest="{Binding DefaultWidth}"
+                    HeightRequest="{Binding PainelMapaHeightRequest}"
+				></StackLayout>
+
+                <StackLayout
+					x:Name="PainelDetalhes"
+					AutomationId="PainelDetalhes"
+					Margin="{Binding MarginDefault}"
+					Spacing="0"
+					WidthRequest="{Binding DefaultWidth}"
+					BackgroundColor="White"
+					PropertyChanged="PainelDetalhesPropertyChanged"
+				></StackLayout>
+
+                <ScrollView
+					Margin="5,0"
+					Orientation="Vertical"
+					WidthRequest="{Binding DefaultWidth}"
+					HeightRequest="{Binding ScrollViewHeightRequest}"
+					>
+
+                    <StackLayout
+						Margin="0,0"
+						Spacing="0"
+						Orientation="Vertical">
+
+                        <Frame
+							x:Name="PainelResumo"
+							AutomationId="PainelResumo"
+							HasShadow="false"
+							OutlineColor="Transparent"
+							BackgroundColor="White"
+							CornerRadius="0"
+							Margin="{Binding MarginDefault}"
+							WidthRequest="{Binding DefaultWidth}"
+							Padding="0"
+
+						>
+
+                            <StackLayout
+								x:Name="PainelResumoListView"
+								AutomationId="PainelResumoListView"
+								BindingContext="{Binding PainelResumoListViewSource}"
+								BindingContextChanged="PainelResumoBindingContextChanged"
+								Margin="{Binding PainelStackLayoutMargin}"
+								Spacing="0"
+								MinimumHeightRequest="100"
+							></StackLayout>
+
+                        </Frame>
+
+                        <StackLayout Orientation="Horizontal" WidthRequest="{Binding DefaultWidth}">
+
+                            <Frame
+							x:Name="PainelSensores"
+							AutomationId="PainelSensores"
+							HasShadow="false"
+							OutlineColor="Transparent"
+							BackgroundColor="White"
+							CornerRadius="0"
+							Margin="{Binding MarginDefault}"
+                            WidthRequest="{Binding DefaultWidth}"
+							Padding="0"                             
+						>
+                                <StackLayout
+								Margin="{Binding PainelStackLayoutMargin}"
+								Spacing="0"
+								MinimumHeightRequest="100"
+							>
+                                    <Label 
+									Text="{i18n:Translate Sensores}" 
+									Margin="{Binding LabelMargin}"
+									FontSize="{Binding LabelFontSize}"
+									FontAttributes="{Binding LabelFontAttributes}"
+								/>
+                                    <StackLayout
+									x:Name="PainelSensoresListView"
+									AutomationId="PainelSensoresListView"
+									BindingContext="{Binding PainelSensoresListViewSource}"
+									BindingContextChanged="ListDefault_BindingContextChanged"
+									Margin="{Binding PainelStackLayoutMargin}"
+									Spacing="0"
+								></StackLayout>
+                                </StackLayout>
+                            </Frame>
+
+                            <Frame
+							x:Name="PainelAtuadores"
+							AutomationId="PainelAtuadores"
+							HasShadow="false"
+							OutlineColor="Transparent"
+							BackgroundColor="White"
+							CornerRadius="0"
+							Margin="{Binding MarginDefault}"
+                            WidthRequest="{Binding DefaultWidth}"
+							Padding="0"
+						>
+                                <StackLayout
+								Margin="{Binding PainelStackLayoutMargin}"
+								Spacing="0"
+								MinimumHeightRequest="100"
+							>
+                                    <Label 
+									Text="{i18n:Translate Atuadores}" 
+									Margin="{Binding LabelMargin}"
+									FontSize="{Binding LabelFontSize}"
+									FontAttributes="{Binding LabelFontAttributes}"
+								/>
+                                    <StackLayout
+									x:Name="PainelAtuadoresListView"
+									AutomationId="PainelAtuadoresListView"
+									BindingContext="{Binding PainelAtuadoresListViewSource}"
+									BindingContextChanged="ListDefault_BindingContextChanged"
+									Margin="{Binding PainelStackLayoutMargin}"
+									Spacing="0"
+								></StackLayout>
+                                </StackLayout>
+                            </Frame>
+
+                        </StackLayout>
+
+                        <Frame
+							x:Name="PainelInformacoes"
+							AutomationId="PainelInformacoes"
+							HasShadow="false"
+							OutlineColor="Transparent"
+							BackgroundColor="White"
+							CornerRadius="0"
+							Margin="{Binding MarginDefault}"
+							WidthRequest="{Binding DefaultWidth}"
+							Padding="0"
+						>
+                            <StackLayout
+								Margin="{Binding PainelStackLayoutMargin}"
+								Spacing="0"
+								MinimumHeightRequest="100"
+							>
+                                <Label 
+									Text="{i18n:Translate Informacoes}" 
+									Margin="{Binding LabelMargin}"
+									FontSize="{Binding LabelFontSize}"
+									FontAttributes="{Binding LabelFontAttributes}"
+								/>
+                                <StackLayout
+									x:Name="PainelInformacoesListView"
+									AutomationId="PainelInformacoesListView"
+									BindingContext="{Binding PainelInformacoesListViewSource}"
+									BindingContextChanged="ListDefault_BindingContextChanged"
+									Margin="{Binding _painelStackLayoutMarginInformacoes}"
+									Spacing="0"
+								></StackLayout>
+                            </StackLayout>
+                        </Frame>
+
+                        <Frame
+							x:Name="PainelTelemetria"
+							AutomationId="PainelTelemetria"
+							HasShadow="false"
+							OutlineColor="Transparent"
+							BackgroundColor="White"
+							CornerRadius="0"
+							Margin="{Binding MarginDefault}"
+							WidthRequest="{Binding DefaultWidth}"
+							Padding="0"
+						>
+                            <StackLayout
+								Margin="{Binding PainelStackLayoutMargin}"
+								Spacing="0"
+								MinimumHeightRequest="100"
+							>
+                                <Label 
+									Text="{i18n:Translate Telemetria}" 
+									Margin="{Binding LabelMargin}"
+									FontSize="{Binding LabelFontSize}"
+									FontAttributes="{Binding LabelFontAttributes}"
+								/>
+                                <StackLayout
+									x:Name="PainelTelemetriaListView"
+									AutomationId="PainelTelemetriaListView"
+									BindingContext="{Binding PainelTelemetriaListViewSource}"
+									BindingContextChanged="PainelTelemetriaListView_BindingContextChanged"
+									Margin="{Binding PainelStackLayoutMargin}"
+									Spacing="0"
+								></StackLayout>
+                            </StackLayout>
+                        </Frame>
+
+                    </StackLayout>
+
+                </ScrollView>
+
+            </StackLayout>
+        </AbsoluteLayout>
+    </ContentView>
+</ContentPage>
